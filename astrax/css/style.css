@@ -1,0 +1,104 @@
+@import url(../img-astrax/icon.jpg);
+
+nav.menu-nav ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.menu-nav ul li.btn a{
+    color: white;
+    background-color: rgb(136, 136, 231);
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color: rgb(22, 19, 8);
+    background-color: white;
+    transition: 1.5 all;
+}
+
+body{
+    background-color: blue;
+    margin: 0 auto;
+}
+
+header{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+
+div#content div.leftbox{
+    background-color: aqua;
+    vertical-align: top;
+}
+
+div#content div.leftbox h1, p{
+    margin: 39px;
+}
+
+div#content div.rightbox h1, p{
+    margin: 39px;
+}
+
+div#content div.rightbox{
+    background-color: aqua;
+    vertical-align: top;
+}
+
+
+
+h2.bienvenue{
+    color: red
+}
+
+p.rienquenoir{
+    color: black
+}
+/* slides */
+
+div.slides{
+    display: flex;
+    flex-direction: row;
+
+    animation: glisse 15s infinite ease;
+}
+
+@keyframes glisse{
+
+    0%{
+        transform: translateX(0);
+    }
+
+    10%{
+        transform: translateX(0)
+    }
+
+    33%{
+        transform: translateX(-500px);
+    }
+
+    66%{
+        transform: translateX(-1000px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+/* test connect */
+
